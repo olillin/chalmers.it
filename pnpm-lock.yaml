@@ -27,6 +27,9 @@ importers:
       html-to-slack:
         specifier: 0.3.7
         version: 0.3.7
+      iamcal:
+        specifier: ^2.1.2
+        version: 2.1.2
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@20.11.16)
@@ -2086,6 +2089,9 @@ packages:
   human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+
+  iamcal@2.1.2:
+    resolution: {integrity: sha512-h5lqF0pYRpz8z+AZF+x3h8G49xl3uvQOxOSshF0PfFjP0DUrTgTCGQGjoA9+gKQi1kEZo8T8JbamSVcO9GH68A==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -6422,6 +6428,8 @@ snapshots:
       entities: 4.5.0
 
   human-signals@2.1.0: {}
+
+  iamcal@2.1.2: {}
 
   ignore@5.3.2: {}
 
