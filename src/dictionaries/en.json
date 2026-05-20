@@ -112,7 +112,9 @@
     "empty": "No events connected",
     "subscribe": "Subscribe",
     "comingEvents": "Coming Events",
-    "ongoing": "Ongoing"
+    "ongoing": "Ongoing",
+    "readMore": "Read more",
+    "relatedEvents": "Related events"
   },
   "groups": {
     "members": "Current members",

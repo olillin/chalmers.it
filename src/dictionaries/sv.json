@@ -112,7 +112,9 @@
     "empty": "Inga evenemang kopplade",
     "subscribe": "Prenumerera",
     "comingEvents": "Kommande evenemang",
-    "ongoing": "Pågående"
+    "ongoing": "Pågående",
+    "readMore": "Läs mer",
+    "relatedEvents": "Relaterade tillfällen"
   },
   "groups": {
     "members": "Nuvarande medlemmar",
