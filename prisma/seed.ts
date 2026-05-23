@@ -21,7 +21,20 @@ async function main() {
         "Today's run will be a bit special, as we will be joined by our friends from GSvett. Come and show that the IT section can run.\n\nWhat?: Running\nWhere?: Outside Hubben\nWhen?: Today at 17:10\nHow?: One foot in front of the other\n\nRemember: it will be fun, but above all great",
       writtenByGammaUserId: 'seed-user-1',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-10T09:28:00')
+      createdAt: new Date('2026-03-10T09:28:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Löpning med GSvett',
+          titleEn: 'Running with GSvett',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Utanför Hubben 2.2',
+          startTime: new Date('2026-03-10T16:10:00Z'),
+          endTime: new Date('2026-03-10T18:10:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-03-10T09:28:00')
+        }
+      }
     },
     {
       titleSv: 'Studiefrukost',
@@ -32,7 +45,20 @@ async function main() {
         "The exams are approaching again, and as usual it's important to study, which can take up a lot of time.\nOn Wednesday you don't need to worry about breakfast, snIT will take care of that.\n\nYou're all welcome to drop by the Hubben on Wednesday, 11/3 from 08:00 for the study breakfast of the term!",
       writtenByGammaUserId: 'seed-user-2',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-09T07:30:00')
+      createdAt: new Date('2026-03-09T07:30:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Studiefrukost',
+          titleEn: 'Study Breakfast',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-03-11T07:00:00Z'),
+          endTime: new Date('2026-03-11T12:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-03-09T07:30:00')
+        }
+      }
     },
     {
       titleSv: 'Pedagogiska prisets middag',
@@ -43,7 +69,20 @@ async function main() {
         'It is time for the yearly Pedagogical Prize dinner at the Software Engineering division, hosted by snIT and sexIT.\n\nThe dinner will be held at Kalle Glader, campus Johanneberg on Friday the 27th of March at 18:01. Tickets can be purchased in the following Form.\n\nIf awarded a spot, tickets can be purchased in Hubben, campus Johanneberg, on Thursday the 12th of March during lunch time. Send an email to snit@chalmers.it if you cannot purchase a ticket at that time.',
       writtenByGammaUserId: 'seed-user-2',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-06T17:35:00')
+      createdAt: new Date('2026-03-06T17:35:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Pedagogiska prisets middag',
+          titleEn: 'Pedagogical Prize dinner',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Kalle Glader',
+          startTime: new Date('2026-03-27T17:01:00Z'),
+          endTime: new Date('2026-03-27T21:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-03-06T17:35:00')
+        }
+      }
     },
     {
       titleSv: 'Internationella kvinnodagen',
@@ -54,7 +93,19 @@ async function main() {
         "Do you think women's rights are kind of nice?\n\nThat's good, because we in EqualIT and our friends in P.R.I.T also think so! This Sunday is international women's day, which we want to celebrate by selling tasty waffles. The proceeds will be donated to Kvinnojouren and Kvinna till Kvinna.\n\nThere will also be super cool IT patches with a pride theme for you to buy too!\n\nTL;DR\nWhat? Waffles for International women's day!\nWhere? Hubben\nWhen? 9th of March (on Monday) 12:00-13:00\nWhy? Because waffles are tasty and women's rights are based",
       writtenByGammaUserId: 'seed-user-3',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-06T11:36:00')
+      createdAt: new Date('2026-03-06T11:36:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Internationella kvinnodagen',
+          titleEn: "International women's day",
+          descriptionSv: '',
+          descriptionEn: '',
+          startTime: new Date('2026-03-09'),
+          endTime: new Date('2026-03-10'),
+          fullDay: true,
+          createdAt: new Date('2026-03-06T11:36:00')
+        }
+      }
     },
     {
       titleSv: 'Beachvolleyboll CM',
@@ -87,7 +138,19 @@ async function main() {
         'Hi everyone!\n\nOn March 8th, we at LaggIT will be hosting a Rocket League CM (tournament between Chalmers students)!\nAre you interested in participating? Then sign up here!\n\nThe deadline for registration is Saturday 7/3 13:59.\nMore information will then be sent to those who have registered, later on that same Saturday (7/3).',
       writtenByGammaUserId: 'seed-user-5',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-03T22:45:00')
+      createdAt: new Date('2026-03-03T22:45:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Chalmers Rocket League-turnering',
+          titleEn: 'Chalmers Rocket League tournament',
+          descriptionSv: '',
+          descriptionEn: '',
+          startTime: new Date('2026-03-08'),
+          endTime: new Date('2026-03-09'),
+          fullDay: false,
+          createdAt: new Date('2026-03-03T22:45:00')
+        }
+      }
     },
     {
       titleSv: 'Sportpub',
@@ -98,7 +161,20 @@ async function main() {
         "Tomorrow, frITid + kids will open its doors for frITid 25, the last sports pub. Food will be sold, and it so happens that Frölunda will be playing Luleå in the CHL at the same time we are open.\nIt's BYOB if you want to bring your own drinks.\n\nWhat?: Sports pub\nWhere?: Hubben\nWhen?: Tuesday 3/3 18:00\nWhat to bring: A little money for food\n\nRemember: it'll be fun, but above all, great",
       writtenByGammaUserId: 'seed-user-1',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-03-02T19:31:00')
+      createdAt: new Date('2026-03-02T19:31:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Sportpub',
+          titleEn: 'Sport pub',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-03-03T17:00:00Z'),
+          endTime: new Date('2026-03-03T21:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-03-02T19:31:00')
+        }
+      }
     },
     {
       titleSv: 'Coppercavern Catacombs; ett DrawIT-äventyr',
@@ -109,7 +185,20 @@ async function main() {
         'Can you hear their call? Whispering your name on the wind...\nThere is something down there. Something buried and forgotten long ago.\n\nWe need your help to figure out what it is. Gather your pickaxes and colleagues, and meet us in Hubben 2.2\n\nCome and explore the mystery with us in DrawIT on a groundbreaking dinner party that throws away tradition!\n\nTl;dr\nWhat? Bonkers dinner party\nWhen? 9/3, 18:01\nWhere? Hubben 2.2\nCost? 80kr\nHow? BYOB',
       writtenByGammaUserId: 'seed-user-6',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-25T21:00:00')
+      createdAt: new Date('2026-02-25T21:00:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Coppercavern Catacombs; ett DrawIT-äventyr',
+          titleEn: 'Coppercavern Catacombs; a DrawIT adventure',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-03-09T17:01Z'),
+          endTime: new Date('2026-03-09T21:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-25T21:00:00')
+        }
+      }
     },
     {
       titleSv: 'Revisionsberättelse LP3',
@@ -129,7 +218,20 @@ async function main() {
         "Can you dodge a wrench? Then you can dodge a ball and I think you should sign up for IT's team for CM in Dodgeball. MISS is opening up this year's edition, and IT will of course be competing, but we need your help.\nFill in this form to sign up for IT's team, which is completely free.\n\nWhat?: CM DodgeBall\nWhere?: Rosendalshallen\nWhen?: 3 March at 9:15 a.m.\nHow?: Throw the ball\n\nRemember: it will be fun, but above all, enjoyable.",
       writtenByGammaUserId: 'seed-user-1',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-25T11:30:00')
+      createdAt: new Date('2026-02-25T11:30:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'CM i Dodgeball',
+          titleEn: 'CM in Dodgeball',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Rosendalshallen',
+          startTime: new Date('2026-03-03'),
+          endTime: new Date('2026-03-04'),
+          fullDay: true,
+          createdAt: new Date('2026-02-25T11:30:00')
+        }
+      }
     },
     {
       titleSv: 'Vin - Volleyboll',
@@ -140,7 +242,20 @@ async function main() {
         'Welcome to a fun evening with good company, good drinks and flying balls.\n\nVinvolly is nothing new, but now we are introducing "fulvinvolly", a completely new concept... kinda.\nWe play, laugh, cheer and toast.\n\nAs usual, there will be BBB afterwards!\nImportant: no alcohol on the first floor of the student union house!\n\nTL;DR\nWhat: Fulvinvolly\nWhere: Exerciseshallen\nWhen: 6/3 15:30\nHow: With your own empty bottle, and/or BYOB',
       writtenByGammaUserId: 'seed-user-8',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-24T12:59:00')
+      createdAt: new Date('2026-02-24T12:59:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Vin - Volleyboll',
+          titleEn: 'Wine - Volleyball',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Exercishallen',
+          startTime: new Date('2026-03-06T14:30:00Z'),
+          endTime: new Date('2026-03-06T16:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-24T12:59:00')
+        }
+      }
     },
     {
       titleSv: 'Självförsvarskurs',
@@ -151,7 +266,20 @@ async function main() {
         "Do you feel like learning a bit about self defence? You're welcome to participate in a self defence class with EqualIT and frITid! The class is held by a qualified self defence instructor for up to 40 participants.\n\nTL;DR\nWhat? Self defence class\nWhere? Motionshallen\nWhen? 15:30 on the 27th of February\nHow? Violently (Note: the class isn't actually violent, don't worry)",
       writtenByGammaUserId: 'seed-user-3',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-23T12:39:00')
+      createdAt: new Date('2026-02-23T12:39:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Självförsvarskurs',
+          titleEn: 'Self defence class',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Motionshallen',
+          startTime: new Date('2026-02-27T14:30:00Z'),
+          endTime: new Date('2026-02-27T15:30:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-23T12:39:00')
+        }
+      }
     },
     {
       titleSv: 'Sektionsmöte - Handlingar LP3 2026',
@@ -173,7 +301,20 @@ async function main() {
         "The gym is still being used as a storage this week, so we won't be able to hold our usual Friday event. Therefore, this Friday we will skip the starter and main course and go straight to dessert. A Friday with only BBB – could it get any better?\n\nWhat?: BBB\nWhere?: The Sauna, Kårhuset\nWhen?: Friday 15:30\nWhat to bring: Swimwear & towel, (something to drink)\n\nRemember: it will be fun, but above all great",
       writtenByGammaUserId: 'seed-user-1',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-18T23:46:00')
+      createdAt: new Date('2026-02-18T23:46:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Bastu',
+          titleEn: 'Sauna',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Bastun, Kårhuset',
+          startTime: new Date('2026-02-20T14:30:00Z'),
+          endTime: new Date('2026-02-20T15:30:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-18T23:46:00')
+        }
+      }
     },
     {
       titleSv: 'LANU',
@@ -184,7 +325,20 @@ async function main() {
         'Join all of Chalmers on Saturday, February 28th in SB-Multisal for the largest LAN-party on campus! Game clubs from multiple student divisions are banding together for a day and night of board games, tournaments, and loads of other activities!\n\n8-bIT will be hosting a Wii Tanks CM, so come join us and explode some tanks!\n\nLANU is a strict non-alcohol event, but snacks and food will be sold on site by DrawIT!',
       writtenByGammaUserId: 'seed-user-5',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-18T16:27:00')
+      createdAt: new Date('2026-02-18T16:27:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'LANU',
+          titleEn: 'LANU',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'SB-Multisal',
+          startTime: new Date('2026-02-28'),
+          endTime: new Date('2026-02-29'),
+          fullDay: true,
+          createdAt: new Date('2026-02-18T16:27:00')
+        }
+      }
     },
     {
       titleSv: 'Sugen på tårta?',
@@ -206,7 +360,20 @@ async function main() {
         "Bank Bank Bonk Bonk\n\nThis sunday it's time for P.R.I.T. 26 first rustday!! We are going to be fixing and tinkering with a lot of different things so come and hang out with us!!\n\nThe start is at 9 am, but you can always show up whenever during the day. We are going to offer some amazing lentil stew with rice and good company!!\n\nWhat? It's Rustdag!!\nWhere? In Hubben 2.2\nWhen? 22/2 from 9 am\nWhy? To take care of our beloved hubb <3",
       writtenByGammaUserId: 'seed-user-11',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-16T18:19:00')
+      createdAt: new Date('2026-02-16T18:19:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Rustdag LP3',
+          titleEn: 'Rustday LP-3',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-02-22'),
+          endTime: new Date('2026-02-22'),
+          fullDay: true,
+          createdAt: new Date('2026-02-16T18:19:00')
+        }
+      }
     },
     {
       titleSv: 'Kom och ät Kärleksmums med FikIT',
@@ -217,7 +384,20 @@ async function main() {
         "Wow! Already Valentine's Day?? Tomorrow, Friday the 13th is the perfect day to come to Hubben at lunch to have a wonderful Kärleksmums! Bring a friend, valentine or any IT-teknolog! See you there!\n\nWhere: Hubben 2.2\nWhen: 13/2 12:00\nHow: Loving",
       writtenByGammaUserId: 'seed-user-12',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-12T18:55:00')
+      createdAt: new Date('2026-02-12T18:55:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Kom och ät Kärleksmums med FikIT',
+          titleEn: 'Come and eat Kärleksmums (Love Nomnoms?) with FikIT',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-02-13T11:00:00Z'),
+          endTime: new Date('2026-02-13T12:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-12T18:55:00')
+        }
+      }
     },
     {
       titleSv: 'Sektionsmöte-workshop',
@@ -228,7 +408,20 @@ async function main() {
         "Do you have ideas you'd like to bring up at the student division meeting? Need help with writing an activity plan or drafting a motion? This Tuesday we in styrIT are hosting a workshop where you can discuss your ideas with us and other section members!\n\nTL;DR\nWhat? Section meeting workshop\nWhere? E-studion\nWhen? 17th of February at 17:31",
       writtenByGammaUserId: 'seed-user-10',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-12T16:08:00')
+      createdAt: new Date('2026-02-12T16:08:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Sektionsmöte-workshop',
+          titleEn: 'Student division meeting workshop',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'E-studion',
+          startTime: new Date('2026-02-17T16:31:00Z'),
+          endTime: new Date('2026-02-17T20:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-12T16:08:00')
+        }
+      }
     },
     {
       titleSv: 'Just Dance',
@@ -239,7 +432,20 @@ async function main() {
         "Once again, we don't have access to the gym on Friday. frITid will therefore once again open the dance floor and play Just Dance. It'll be sweaty, it'll be fun, so come along.\n\nWhat?: Just Dance\nWhere?: ML15\nWhen?: Friday 13/2 at 15:30\nHow?: Groovy\nEquipment: A so called smart phone with Just Dance Now installed\n\nRemember: it will be fun, but above all, great",
       writtenByGammaUserId: 'seed-user-1',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-11T22:57:00')
+      createdAt: new Date('2026-02-11T22:57:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Just Dance',
+          titleEn: 'Just Dance',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'ML15',
+          startTime: new Date('2026-02-13T14:30:00Z'),
+          endTime: new Date('2026-02-13T15:30:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-11T22:57:00')
+        }
+      }
     },
     {
       titleSv: 'Karaoke-brunch',
@@ -261,7 +467,20 @@ async function main() {
         'On Friday the 13th of February we have Kod & Vin. This will be our last Kod & Vin and that is why we will be providing some snacks. This will also be our last "asp" event, so if you aren\'t already "asping" for digIT, you can come here.\n\nWhat you do at Kod & Vin is code and drink wine or a beverage of your choice. We will also be placing a collective pizza order during the evening.\n\nWhat? Kod & Vin\nWhen? 2026-02-13: 17:31 to late\nWhere? Hubben 2.2\nHow? BYOW',
       writtenByGammaUserId: 'seed-user-13',
       status: PostStatus.PUBLISHED,
-      createdAt: new Date('2026-02-10T13:31:00')
+      createdAt: new Date('2026-02-10T13:31:00'),
+      connectedEvents: {
+        create: {
+          titleSv: 'Kod & Vin',
+          titleEn: 'Kod & Vin',
+          descriptionSv: '',
+          descriptionEn: '',
+          location: 'Hubben 2.2',
+          startTime: new Date('2026-02-13T16:31:00Z'),
+          endTime: new Date('2026-02-13T22:00:00Z'),
+          fullDay: false,
+          createdAt: new Date('2026-02-10T13:31:00')
+        }
+      }
     }
   ];
 
