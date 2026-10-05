@@ -105,7 +105,8 @@ export default class NewsService {
             endTime: true,
             location: true,
             createdAt: true,
-            updatedAt: true
+            updatedAt: true,
+            spokenLanguage: true
           }
         }
       },
